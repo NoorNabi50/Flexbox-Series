@@ -1,0 +1,658 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* CLASSES USED IN MULTIPLY ITEMS */
+.Main-Headings{
+    text-transform: uppercase;
+    color: #2C3E50;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+
+}
+
+.UnderLineImage2{
+    position: relative;
+    left: -7px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Navigation */
+
+ .navigation{
+     background-color: #2C3E50;
+   position: fixed;
+   z-index: 1;
+     width: 100%;
+     height: 70px;
+ }
+
+ .heading{
+
+     float: left;
+     width: 30%;
+ }
+
+ .TopHeading{
+     color: white;
+     font-family: sans-serif;
+     position: relative;
+      top: 20px;
+      left: 70px;
+      letter-spacing: 2px;
+ }
+
+ .navigationLinks{
+     float: right;
+     width: 33%;
+     position: relative;
+     top: 24px;
+ }
+
+ ul{
+     list-style: none;
+ }
+
+ li{
+      display: inline;
+      margin: 14px;
+ }
+
+ a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
+ }
+
+a:hover{
+    color: gray;
+}
+
+ /* SECTION START BOOTSTRAP */
+
+ .main-containerSTB{
+     background-color: #1ABC9C;
+     width: 100%;
+     height: 550px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin-bottom: 10px;
+
+ }
+
+ .avatar{
+     width: 200px;
+     height: 170px;
+     position: relative;
+     left: 42%;
+     top: 25%;
+  
+ }
+
+ 
+ .TextContentSTB{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 33%;
+    top: 36%;
+ }
+
+ .STBHEADING{
+    width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    
+   
+ }
+
+ .UnderLineImage1{
+    position: relative;
+    left: -15px;
+    text-align: center;
+    margin-bottom: 13px;
+ }
+
+
+
+ .STBPARAGRAPH{
+     position: relative;
+     left: 10%;
+     letter-spacing: 2px;
+     color: white;
+ }
+
+
+
+ /* SECTION PORTFOLIO  */
+
+ .Portfolio{
+     height: 600px;
+      width: 100%;
+    
+      margin-bottom: 20px;
+ }
+
+ 
+.UnderLineImage2{
+    position: relative;
+    left: -7px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.ImagesContainer{
+    display: flex;
+    width: 100%;
+    height: 450px;
+   flex-wrap: wrap;
+    
+}
+
+.Images{
+ 
+    width: 318px;
+    margin: 10px;
+    text-align: center;
+     height:186px;
+    font-size: 30px;
+    position: relative;
+    left: 14%;
+    
+}
+
+.Images > img{
+    border-radius: 10px;
+}
+
+
+/* ABOUT */
+
+.About{
+    background-color: #1ABC9C;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.AboutContent{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 28%;
+    margin-bottom: 20px;
+}
+
+.ContentParagraph1{
+ 
+    width: 280px;
+    height: 200px;
+    margin: 15px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #FFFFFF;
+
+}
+
+.DownloadButton{
+    position: relative;
+    
+    left: 40%;
+}
+
+.DownloadButton a{
+    color:  white;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+   
+
+}
+
+.DownloadButton a:hover{
+    background-color: rgb(43, 76, 223);
+    color:#FFFFFF;
+    box-shadow: 3px 1px 3px 1px white;
+    
+}
+
+
+
+/* CONTACT FORM */
+
+.ContactForm{
+    color: #2C3E50;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 30px;
+}
+
+form{
+   
+    width: 100%;
+    height: 600px;
+    position: relative;
+    left: 20%;
+}
+
+input{
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+}
+
+.SendBtn{
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    width: 90px;
+    padding: 13px;
+    font-size: 24px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: none;
+}
+
+.SendBtn:hover{
+    background-color: rgb(43, 76, 223);
+    color:#FFFFFF;
+    box-shadow: 3px 1px 3px 1px white;
+    
+}
+
+
+/* SECTION FOOTER */
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #2C3E50;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   
+}
+
+.footerContent{
+   
+    width: 319px;
+    height: 142px;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    margin: 20px;
+}
+
+.FooterHeading{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.FooterParagraph{
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+
+
+}
+
+.SocialIcons{
+    margin-top:20px ;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+
+  .fa:hover{
+      background-color: #FFFFFF;
+      color:black;
+      border: 1px solid black;
+  }
+
+  .CopyRightMsg{
+      background-color: #1A252F;
+      text-align: center;
+      width: 100%;
+      height: 60px;
+  }
+
+
+
+/* Responsive  */
+
+@media (max-width: 520px) {
+  
+    .Main-Headings{
+        text-transform: uppercase;
+        color: #2C3E50;
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 16px;
+        letter-spacing: 3px;
+        margin-bottom: 12px;
+    
+    }
+
+
+
+
+
+
+    .main-containerSTB{
+        background-color: #1ABC9C;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        
+   
+    }
+    .avatar{
+        width: 180px;
+        height: 170px;
+        position: relative;
+        left: 33%;
+        top: 25%;
+     
+    }
+
+    .TextContentSTB{
+        width: 250px;
+        height: 300px;
+        position: relative;
+        left: 30%;
+        top: 36%;
+     }
+    
+     .STBHEADING{
+        width: 100%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: white;
+        margin-bottom: 10px;
+        
+       
+     }
+    
+     .UnderLineImage1{
+        position: relative;
+        left: -15px;
+        text-align: center;
+        margin-bottom: 13px;
+     }
+    
+    
+    
+     .STBPARAGRAPH{
+         
+        font-size: 1fr;
+    
+         position: relative;
+         left: -10px;
+         letter-spacing: 2px;
+         color: white;
+     }
+    
+    
+
+     /* PORTFOLIO */
+
+     .Portfolio{
+        height: 1400px;
+         width: 100%;
+       
+         margin-bottom: 20px;
+    }
+
+    
+
+
+    /* ABOUT */
+
+.About{
+    background-color: #1ABC9C;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.AboutContent{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 2%;
+    text-align: center;
+
+}
+
+.ContentParagraph1{
+ 
+    width: 430px;
+    height: 150px;
+    margin: 0px;
+    font-size: 1.20rem;
+    font-weight: 300;
+    color: #FFFFFF;
+
+}
+
+.DownloadButton{
+    position: relative;
+   
+    
+    left: 25%;
+}
+
+.DownloadButton a{
+    color:  white;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 15px 10px;
+    
+    text-decoration: none;
+    border-radius: 10px;
+   
+
+}
+
+
+/* CONTACT FORM */
+
+.ContactForm{
+    color: #2C3E50;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 30px;
+}
+
+form{
+   
+    width: 100%;
+    height: 600px;
+    position: relative;
+    left: 20%;
+}
+
+input{
+    width: 77%;
+    height: 90px;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+}
+
+textarea{
+    width: 77%;
+    height: 150px;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gainsboro;
+    outline: none;
+}
+
+.SendBtn{
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    width: 90px;
+    padding: 13px;
+    font-size: 24px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* SECTION FOOTER */
+
+.footer{
+    height: 700px;
+    width: 100%;
+    background-color: #2C3E50;
+    display: flex;
+    flex-direction: row;
+
+    
+   
+}
+
+.footerContent{
+   
+    width: 319px;
+    height: 142px;
+    position: relative;
+    top: 5%;
+    left: 15%;
+    margin: 24px ;
+    padding: 20px;
+    
+}
+
+.FooterHeading{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.FooterParagraph{
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+
+
+}
+
+.SocialIcons{
+    margin-top:20px ;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+  }
+
+
+
+
+  }
